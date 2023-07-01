@@ -17,7 +17,7 @@ query_results <- rbind(query_results,flex_query(parties_list,years_list,variable
 
 
 
-If, for some reason, you want to grab all the years, then try this:
+#If, for some reason, you want to grab all the years, then try this:
 #All years:
 df_yearIDs <- get_years()
 years_list = as.list(df_yearIDs$yearId)
